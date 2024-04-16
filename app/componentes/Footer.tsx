@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Footer() {
     return (
-        <footer className="footer py-20 px-44 bg-slate-950 text-base-content">
+        <footer className="footer py-10 md:py-20 px-10 md:px-44 bg-slate-900 text-base-content">
             <aside>
                 <img className="w-44 md:w-60" src="/logopnghorizontal.png" alt="Logo" />
             </aside>

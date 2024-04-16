@@ -1,15 +1,15 @@
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default function AboutUs() {
+export default function AboutInfo() {
     return (
-        <div className="flex bg-gradient-to-b from-slate-950 via-blue-950 to-blue-950 flex-col md:flex-row items-center justify-between py-10 md:py-20 px-5 md:px-32">
-            <div className="flex flex-col items-start w-80 md:w-[200rem] mx-5">
-                <h1 className="text-blue-400 border-2 border-white rounded-full px-8 py-4 uppercase text-xl font-bold">Sobre nosotros</h1>
-                <p className="text-white text-2xl font-medium mt-5">Somos una empresa dedicada a brindar soluciones integrales <br></br>
-                en el ámbito de diseño y desarrollo web, aplicaciones móviles, hosting, seguridad digital e infraestructura IT. <br></br>
-                Nuestra misión es ayudar a nuestros clientes a alcanzar el éxito en el mundo digital.</p>
-                <a className="btn text-white border-white bg-transparent mt-5 text-xl rounded-full">Conocé más<FontAwesomeIcon className="w-5" icon={faArrowRight} /></a>
+        <div className="flex bg-gradient-to-b from-slate-950 via-blue-950 to-blue-950 flex-col md:flex-row items-center justify-between py-5 md:py-10 px-5 md:px-32">
+            <div className="flex flex-col items-start w-80 md:w-[200rem] mx-2 md:mx-5">
+                <p className="text-white text-2xl font-medium text-center md:text-start">Somos una empresa dedicada a brindar soluciones integrales <br></br>
+                    en el ámbito de diseño y desarrollo web, aplicaciones móviles, hosting, seguridad digital e infraestructura IT. <br></br>
+                    Nuestra misión es ayudar a nuestros clientes a alcanzar el éxito en el mundo digital.</p>
+                <p className="text-slate-300 text-2xl font-medium mt-5 text-center md:text-start">En Security & System, nos enorgullece contar con un equipo de profesionales altamente capacitados y apasionados <br></br>
+                    por la tecnología. Trabajamos estrechamente con nuestros clientes para comprender sus necesidades y ofrecer soluciones <br></br>
+                    a medida que impulsen sus objetivos comerciales.</p>
             </div>
             <div className="card mt-5 md:mt-0 mx-5 bg-transparent border-2 border-blue-800/50 shadow-blue-800/50 shadow-2xl">
                 <div className="card-body">
