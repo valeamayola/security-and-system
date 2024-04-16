@@ -9,7 +9,7 @@ export default function OurWork() {
                 <img className="w-full h-32 md:h-[20rem] hidden md:flex" src="/sdp-mockup.png"></img>
             </div>
             <p className="text-white text-xl font-medium mt-5 text-center">Si deseas obtener más información sobre alguno de nuestros proyectos o estás interesado en trabajar con nosotros en tu próximo proyecto, no dudes en ponerte en contacto. Estamos aquí para ayudarte a transformar tus ideas en realidad en el mundo digital.</p>
-            <a className="btn text-white border-white bg-transparent mt-5 text-lg rounded-full">Ver todos nuestros trabajos</a>
+            <a href="/nuestros-trabajos" className="btn text-white border-white bg-transparent mt-5 text-lg rounded-full">Ver todos nuestros trabajos</a>
         </div>
     )
 }

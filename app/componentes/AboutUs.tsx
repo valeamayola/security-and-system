@@ -9,7 +9,7 @@ export default function AboutUs() {
                 <p className="text-white text-2xl font-medium mt-5">Somos una empresa dedicada a brindar soluciones integrales <br></br>
                 en el ámbito de diseño y desarrollo web, aplicaciones móviles, hosting, seguridad digital e infraestructura IT. <br></br>
                 Nuestra misión es ayudar a nuestros clientes a alcanzar el éxito en el mundo digital.</p>
-                <a className="btn text-white border-white bg-transparent mt-5 text-xl rounded-full">Conocé más<FontAwesomeIcon className="w-5" icon={faArrowRight} /></a>
+                <a href="/sobre-nosotros" className="btn text-white border-white bg-transparent mt-5 text-xl rounded-full">Conocé más<FontAwesomeIcon className="w-5" icon={faArrowRight} /></a>
             </div>
             <div className="card mt-5 md:mt-0 mx-5 bg-transparent border-2 border-blue-800/50 shadow-blue-800/50 shadow-2xl">
                 <div className="card-body">
