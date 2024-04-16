@@ -21,7 +21,7 @@ export default function Header() {
     
     return (
         <>
-            <div className="flex flex-col md:flex-row md:px-32 py-20 items-center align-items justify-center">
+            <div className="w-full bg-gradient-to-b from-blue-950 via-slate-950 to-slate-950 flex flex-col md:flex-row md:px-32 py-20 items-center align-items justify-center">
                 <div className="flex flex-col">
                     <h1 className="font-bold text-4xl md:text-6xl text-title pb-2 px-5 text-white">Construyendo un Futuro Digital</h1>
                     <AnimatedTitle />

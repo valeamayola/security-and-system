@@ -9,9 +9,7 @@ import WhyChoose from "./componentes/WhyChoose";
 
 export default function Home() {
   return (
-    <div 
-    className="h-screen w-full bg-gradient-to-b from-blue-950 via-slate-950 to-slate-950"
-    >
+    <div>
       <NavBar />
       <Header />
       <WhyChoose />

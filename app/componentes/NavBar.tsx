@@ -1,6 +1,6 @@
 export default function NavBar() {
     return (
-        <div className="navbar bg-transparent py-2 md:py-5 px-2 md:px-20">
+        <div className="navbar bg-blue-950 py-2 md:py-5 px-2 md:px-20">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden hover:bg-transparent">
