@@ -5,11 +5,11 @@ export default function Contact() {
     return (
         <div className="flex bg-gradient-to-b from-blue-950 via-slate-950 to-slate-950 flex-col items-center justify-between py-10 md:py-20 px-10 md:px-32">
             <div className="flex flex-col items-center justify-center mx-5 w-full">
-                <h1 className="text-blue-400 border-2 border-white rounded-full px-8 py-4 uppercase text-xl font-bold">Contactános</h1>
-                <p className="text-white text-2xl font-medium mt-5 text-center">Contanos acerca de tu proyecto</p>
-                <p className="text-xl text-white mt-8 flex"><FontAwesomeIcon className="w-10 mr-2" icon={faEnvelope} />Envíanos un mensaje y programa una llamada con nuestro equipo comercial para discutir tu proyecto en más detalle.</p>
-                <p className="text-xl text-white mt-5 flex"><FontAwesomeIcon className="w-10 mr-2" icon={faComments} />Reuniremos todos tus requisitos para alcanzar tus necesidades y objetivos.</p>
-                <p className="text-xl text-white mt-5 flex"><FontAwesomeIcon className="w-10 mr-2" icon={faEnvelopeOpen} />Te enviaremos una propuesta con los costos, plazos de entrega y descripción detallada del trabajo a realizar.</p>
+                <h1 className="text-blue-400 border-2 border-white rounded-full px-5 md:px-8 py-4 uppercase text-lg md:text-xl font-bold">Contactános</h1>
+                <p className="text-white text-xl md:text-2xl font-medium mt-5 text-center">Contanos acerca de tu proyecto</p>
+                <p className="text-lg md:text-xl text-white mt-8 flex"><FontAwesomeIcon className="w-10 mr-2" icon={faEnvelope} />Envíanos un mensaje y programa una llamada con nuestro equipo comercial para discutir tu proyecto en más detalle.</p>
+                <p className="text-lg md:text-xl text-white mt-5 flex"><FontAwesomeIcon className="w-10 mr-2" icon={faComments} />Reuniremos todos tus requisitos para alcanzar tus necesidades y objetivos.</p>
+                <p className="text-lg md:text-xl text-white mt-5 flex"><FontAwesomeIcon className="w-10 mr-2" icon={faEnvelopeOpen} />Te enviaremos una propuesta con los costos, plazos de entrega y descripción detallada del trabajo a realizar.</p>
             </div>
             <ul className="hidden timeline timeline-vertical">
                 <li>
